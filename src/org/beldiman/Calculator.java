@@ -1,6 +1,7 @@
 package org.beldiman;
 
 import org.beldiman.calculator.CalculatorOperator;
+import org.beldiman.calculator.OperatorEnum;
 import org.beldiman.calculator.OperatorInt;
 import org.beldiman.exceptions.IllegalMathematicalException;
 import org.beldiman.exceptions.InvalidInputException;
