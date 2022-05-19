@@ -1,0 +1,5 @@
+The result of the operation is: 2.0The result of the operation is: 10.0The result of the operation is: 3.0The result of the operation is: 8.0/nThe result of the operation is: 36.0/nThe result of the operation is: 4.0
+The result of the operation is: 11.0
+
+The result of the operation is: 360.0
+The result of the operation is: -1.0
