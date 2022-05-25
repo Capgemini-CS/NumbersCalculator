@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9042d41-9b79-4bbc-8b3a-5e37af1bffc4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculations/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculations/Divider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculations/Multiplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculations/OperationBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculations/Subtracter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/CalculatorOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/OperatorEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/OperatorInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/IllegalMathematicalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/InvalidInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/OutputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/InputInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/input/ProcessInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/output/ConsoleOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/output/DBOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/output/FileOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/output/JDBCUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/output/OutputInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/validator/CalculatorValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/validator/ValidatorInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/tinylog.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29edvaWBPrrU46i7Su7OlSPaxNu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/sbeldima/IdeaProjects/CalculatorM/src/main/resources"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sbeldima\IdeaProjects\CalculatorM\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Calculator" />
+      <module name="CalculatorM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Calculator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9042d41-9b79-4bbc-8b3a-5e37af1bffc4" name="Changes" comment="" />
+      <created>1653477719059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653477719059</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

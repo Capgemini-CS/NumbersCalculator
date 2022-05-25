@@ -1,0 +1,18 @@
+2022-05-25 15:23:39 [main] output.DBOutput.createTables()
+INFO: Tables created
+2022-05-25 15:23:49 [main] Calculator.doCalculate()
+TRACE: Processing operation
+2022-05-25 15:23:49 [main] Calculator.doCalculate()
+TRACE: Starting calculation
+2022-05-25 15:23:49 [main] output.DBOutput.outputResult()
+INFO: Operation table populated
+2022-05-25 15:23:49 [main] output.DBOutput.outputResult()
+INFO: Tables operation and log populated with new input.
+2022-05-25 15:23:59 [main] Calculator.doCalculate()
+TRACE: Processing operation
+2022-05-25 15:23:59 [main] Calculator.doCalculate()
+TRACE: Starting calculation
+2022-05-25 15:23:59 [main] output.DBOutput.outputResult()
+INFO: Operation table populated
+2022-05-25 15:23:59 [main] output.DBOutput.outputResult()
+INFO: Tables operation and log populated with new input.
