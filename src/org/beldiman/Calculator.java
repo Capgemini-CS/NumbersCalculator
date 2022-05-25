@@ -1,16 +1,13 @@
 package org.beldiman;
 
 import org.beldiman.calculator.CalculatorOperator;
-import org.beldiman.calculator.OperatorEnum;
 import org.beldiman.calculator.OperatorInt;
 import org.beldiman.exceptions.IllegalMathematicalException;
 import org.beldiman.exceptions.InvalidInputException;
 import org.beldiman.exceptions.OutputException;
 import org.beldiman.input.InputInt;
 import org.beldiman.input.ProcessInput;
-import org.beldiman.output.ConsoleOutput;
-import org.beldiman.output.FileOutput;
-import org.beldiman.output.OutputInt;
+import org.beldiman.output.*;
 import org.beldiman.validator.CalculatorValidator;
 import org.beldiman.validator.ValidatorInt;
 import org.tinylog.Logger;
@@ -18,9 +15,20 @@ import org.tinylog.Logger;
 public class Calculator {
     private InputInt input = new ProcessInput();
 //    private OutputInt output = new FileOutput();
-    private OutputInt output = new ConsoleOutput();
+    private OutputInt output = new DBOutput();
+//    private OutputInt output = new ConsoleOutput();
     private ValidatorInt calculatorValidator = new CalculatorValidator();
     private OperatorInt calculatorOperator = new CalculatorOperator();
+//    private DBOutput dbOutput = new DBOutput();
+
+//    {
+//        try {
+//            dbOutput.createTables();
+//        } catch (OutputException e) {
+//            Logger.error("Error creating tables.");
+//            System.exit(0);
+//        }
+//    }
 
     public void doCalculate() {
         int firstNumber = 0;
@@ -58,12 +66,12 @@ public class Calculator {
         Logger.trace("Starting calculation");
         double result = calculatorOperator.calculate(firstNumber,secondNumber,operation);
         try {
-            output.outputResult(result);
+            output.outputResult(firstNumber, operation, secondNumber, result);
         } catch (OutputException e) {
             Logger.error("Output error generated.");
             System.exit(0);
         }
-        Logger.trace("Result printed.");
+
 
     }
 

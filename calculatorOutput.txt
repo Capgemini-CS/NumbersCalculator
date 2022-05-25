@@ -3,3 +3,5 @@ The result of the operation is: 11.0
 
 The result of the operation is: 360.0
 The result of the operation is: -1.0
+The result of the operation 6 + 7 is: 13.0
+The result of the operation 11 * 11 is: 121.0

@@ -1,12 +1,8 @@
-2022-05-19 14:57:30 [main] org.beldiman.Calculator.doCalculate()
+2022-05-25 10:46:30 [main] org.beldiman.Calculator.doCalculate()
 TRACE: Processing operation
-2022-05-19 14:57:30 [main] org.beldiman.Calculator.doCalculate()
+2022-05-25 10:46:30 [main] org.beldiman.Calculator.doCalculate()
 TRACE: Starting calculation
-2022-05-19 14:57:30 [main] org.beldiman.Calculator.doCalculate()
-TRACE: Result printed.
-2022-05-19 14:57:36 [main] org.beldiman.Calculator.doCalculate()
-TRACE: Processing operation
-2022-05-19 14:57:36 [main] org.beldiman.Calculator.doCalculate()
-TRACE: Starting calculation
-2022-05-19 14:57:36 [main] org.beldiman.Calculator.doCalculate()
-TRACE: Result printed.
+2022-05-25 10:46:31 [main] org.beldiman.output.DBOutput.outputResult()
+INFO: Operation table populated
+2022-05-25 10:46:31 [main] org.beldiman.output.DBOutput.outputResult()
+INFO: Tables operation and log populated with new input.
