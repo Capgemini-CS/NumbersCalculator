@@ -1,6 +1,6 @@
-package input;
+package com.beldiman.input;
 
-import exceptions.InvalidInputException;
+import com.beldiman.exceptions.InvalidInputException;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package calculator;
+package com.beldiman.calculator;
 
-import calculations.*;
+import com.beldiman.calculations.*;
 
 public enum OperatorEnum {
 

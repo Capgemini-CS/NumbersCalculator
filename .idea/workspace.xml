@@ -5,8 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9042d41-9b79-4bbc-8b3a-5e37af1bffc4" name="Changes" comment="Exec plugin inserted into pom">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculations/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculations/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculations/Divider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculations/Divider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculations/Multiplier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculations/Multiplier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculations/OperationBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculations/OperationBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculations/Subtracter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculations/Subtracter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/CalculatorOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculator/CalculatorOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/OperatorEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculator/OperatorEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/OperatorInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/calculator/OperatorInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/IllegalMathematicalException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/exceptions/IllegalMathematicalException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/InvalidInputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/exceptions/InvalidInputException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exceptions/OutputException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/exceptions/OutputException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/input/InputInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/input/InputInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/input/ProcessInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/input/ProcessInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/output/ConsoleOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/output/ConsoleOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/output/DBOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/output/DBOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/output/FileOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/output/FileOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/output/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/output/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/output/OutputInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/output/OutputInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validator/CalculatorValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/validator/CalculatorValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/validator/ValidatorInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beldiman/validator/ValidatorInt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,21 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sbeldima/IdeaProjects/CalculatorM/src/main/resources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/sbeldima/IdeaProjects/CalculatorM/src/main/resources"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\sbeldima\IdeaProjects\CalculatorM\src\main\resources" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
+    <configuration name="com.beldiman.Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.beldiman.Calculator" />
       <module name="CalculatorM" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,7 +88,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.com.beldiman.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -91,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653550169804</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exec plugin inserted into pom">
+      <created>1653552000062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653552000062</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">

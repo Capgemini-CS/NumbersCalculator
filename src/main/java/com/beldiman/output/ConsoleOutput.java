@@ -1,4 +1,4 @@
-package output;
+package com.beldiman.output;
 
 public class ConsoleOutput implements OutputInt{
 

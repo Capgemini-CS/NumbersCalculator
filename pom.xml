@@ -14,7 +14,7 @@
         <tinylog.api>2.4.1</tinylog.api>
         <tinylog.impl>2.4.1</tinylog.impl>
         <mysql.connector>8.0.19</mysql.connector>
-        <maven.exec.plugin>1.6.0</maven.exec.plugin>
+        <maven.exec.plugin>3.0.0</maven.exec.plugin>
     </properties>
 
     <dependencies>
@@ -34,7 +34,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.connector}</version>
         </dependency>
-
     </dependencies>
 
     <build>
@@ -44,7 +43,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>${maven.exec.plugin}</version>
                 <configuration>
-                    <mainClass>src.main.java.Calculator</mainClass>
+                    <mainClass>com.beldiman.Calculator</mainClass>
                 </configuration>
             </plugin>
         </plugins>

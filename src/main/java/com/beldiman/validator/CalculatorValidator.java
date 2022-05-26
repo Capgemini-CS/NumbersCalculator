@@ -1,7 +1,7 @@
-package validator;
+package com.beldiman.validator;
 
-import exceptions.IllegalMathematicalException;
-import exceptions.InvalidInputException;
+import com.beldiman.exceptions.IllegalMathematicalException;
+import com.beldiman.exceptions.InvalidInputException;
 
 public class CalculatorValidator implements ValidatorInt{
     public void validateFunction (int firstNumber, int secondNumber, char operator) throws IllegalMathematicalException {

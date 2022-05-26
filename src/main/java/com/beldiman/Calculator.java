@@ -1,15 +1,17 @@
-import calculator.CalculatorOperator;
-import calculator.OperatorInt;
-import exceptions.IllegalMathematicalException;
-import exceptions.InvalidInputException;
-import exceptions.OutputException;
-import input.InputInt;
-import input.ProcessInput;
+package com.beldiman;
+
+import com.beldiman.calculator.CalculatorOperator;
+import com.beldiman.calculator.OperatorInt;
+import com.beldiman.exceptions.IllegalMathematicalException;
+import com.beldiman.exceptions.InvalidInputException;
+import com.beldiman.exceptions.OutputException;
+import com.beldiman.input.InputInt;
+import com.beldiman.input.ProcessInput;
 import org.tinylog.Logger;
-import output.DBOutput;
-import output.OutputInt;
-import validator.CalculatorValidator;
-import validator.ValidatorInt;
+import com.beldiman.output.DBOutput;
+import com.beldiman.output.OutputInt;
+import com.beldiman.validator.CalculatorValidator;
+import com.beldiman.validator.ValidatorInt;
 
 public class Calculator {
     private InputInt input = new ProcessInput();

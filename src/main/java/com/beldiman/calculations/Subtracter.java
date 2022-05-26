@@ -1,4 +1,4 @@
-package calculations;
+package com.beldiman.calculations;
 
 public class Subtracter implements OperationBase {
 

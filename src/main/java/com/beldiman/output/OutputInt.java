@@ -1,6 +1,6 @@
-package output;
+package com.beldiman.output;
 
-import exceptions.OutputException;
+import com.beldiman.exceptions.OutputException;
 
 public interface OutputInt {
 

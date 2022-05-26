@@ -1,4 +1,4 @@
-package calculator;
+package com.beldiman.calculator;
 
 public class CalculatorOperator implements OperatorInt{
 

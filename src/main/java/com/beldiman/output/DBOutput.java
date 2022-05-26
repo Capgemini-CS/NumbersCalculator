@@ -1,6 +1,6 @@
-package output;
+package com.beldiman.output;
 
-import exceptions.OutputException;
+import com.beldiman.exceptions.OutputException;
 import org.tinylog.Logger;
 
 import java.sql.Connection;
