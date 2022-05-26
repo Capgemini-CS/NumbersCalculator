@@ -11,26 +11,43 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <tinylog.api>2.4.1</tinylog.api>
+        <tinylog.impl>2.4.1</tinylog.impl>
+        <mysql.connector>8.0.19</mysql.connector>
+        <maven.exec.plugin>1.6.0</maven.exec.plugin>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.tinylog</groupId>
             <artifactId>tinylog-api</artifactId>
-            <version>2.4.1</version>
+            <version>${tinylog.api}</version>
         </dependency>
         <dependency>
             <groupId>org.tinylog</groupId>
             <artifactId>tinylog-impl</artifactId>
-            <version>2.4.1</version>
+            <version>${tinylog.impl}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.19</version>
+            <version>${mysql.connector}</version>
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>${maven.exec.plugin}</version>
+                <configuration>
+                    <mainClass>src.main.java.Calculator</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
